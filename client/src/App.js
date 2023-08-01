@@ -3,7 +3,7 @@ import {AiFillCloseCircle,AiOutlinePlusCircle,AiOutlineCloseCircle} from "react-
 import { useState,useEffect } from "react";
 import {RiTodoLine} from "react-icons/ri";
 
-const API_BASE = "http://localhost:4040";
+const API_BASE = "https://todo-list-server-48sk.onrender.com";
 
 function App() {
   const [todos,settodos] = useState([]);
