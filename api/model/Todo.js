@@ -12,6 +12,7 @@ const TodoSchema = new Schema(
             type:Boolean,
             default:false
         },
+        user:{type:mongoose.Schema.Types.ObjectId,ref:"users",required:true},
         timestamp:{
             type:String,
             default:Date.now()
